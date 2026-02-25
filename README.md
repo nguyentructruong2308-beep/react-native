@@ -343,8 +343,14 @@ INSERT INTO user_role (user_id, role_id) VALUES (1, 101);
 
 ## 📸 Screenshots
 
+### 📱 Mobile App
+
+<p align="center">
+  <img src="screenshots/home-screen.png" width="300" alt="Home Screen" />
+</p>
+
 <details>
-<summary>📱 Mobile App</summary>
+<summary>Xem danh sách màn hình</summary>
 
 Ứng dụng bao gồm các màn hình:
 
