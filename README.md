@@ -198,32 +198,23 @@ cd react-native
 
 ### 2️⃣ Backend - Spring Boot (`example05/`)
 
-**a. Tạo database MySQL:**
+**a. Tạo database MySQL và import dữ liệu mẫu:**
 
 ```sql
 CREATE DATABASE example05;
 ```
 
-**b. Cấu hình kết nối database:**
-
-Mở file `example05/src/main/resources/application.properties` và chỉnh sửa:
-
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/example05
-spring.datasource.username=root
-spring.datasource.password=YOUR_MYSQL_PASSWORD
+```bash
+mysql -u root -p example05 < example05.sql
 ```
 
-**c. Cấu hình Email (cho chức năng Quên mật khẩu):**
+> 💡 Nếu MySQL của bạn **có mật khẩu root**, mở file `example05/src/main/resources/application.properties` và sửa dòng:
+>
+> ```properties
+> spring.datasource.password=YOUR_MYSQL_PASSWORD
+> ```
 
-```properties
-spring.mail.username=your-email@gmail.com
-spring.mail.password=your-app-password
-```
-
-> 💡 **Lưu ý**: Sử dụng [App Password](https://myaccount.google.com/apppasswords) của Gmail, không phải mật khẩu đăng nhập thường.
-
-**d. Chạy Backend:**
+**b. Chạy Backend:**
 
 ```bash
 cd example05
