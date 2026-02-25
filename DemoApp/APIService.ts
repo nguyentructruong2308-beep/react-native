@@ -7,10 +7,10 @@ import { Platform } from 'react-native';
 // ==========================================
 
 // 👉 IP Backend Spring Boot (Dùng IP local)
-const API_URL = "http://192.168.1.60:8080/api";
+const API_URL = "http://192.168.1.104:8080/api";
 
 // 👉 IP Server Python chạy Gemini (Port 5000)
-const AI_URL = "http://192.168.1.60:5000";
+const AI_URL = "http://192.168.1.104:5000";
 
 async function getToken() {
   return await AsyncStorage.getItem('jwt-token');
