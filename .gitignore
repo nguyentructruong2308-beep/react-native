@@ -67,3 +67,14 @@ logs/
 # ========================
 dist-ssr/
 build/
+
+# ========================
+# Product Images (auto-generated)
+# ========================
+images/
+example05/images/
+
+# ========================
+# Database dumps
+# ========================
+*.sql
