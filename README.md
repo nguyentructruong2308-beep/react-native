@@ -1,6 +1,6 @@
-# 🍽️ Restaurant Management System - Full Stack
+# 🍔 Food Ordering App - Full Stack Mobile Application
 
-> Ứng dụng quản lý nhà hàng đa nền tảng với AI chatbot hỗ trợ đặt món bằng giọng nói và hình ảnh.
+> Ứng dụng di động đặt đồ ăn đa nền tảng với AI chatbot hỗ trợ đặt món bằng giọng nói và hình ảnh.
 
 ## 📋 Mục lục
 
@@ -17,7 +17,7 @@
 
 ## 🌟 Tổng quan
 
-Dự án **Restaurant Management System** là một hệ thống quản lý nhà hàng đầy đủ gồm 4 thành phần chính:
+Dự án **Food Ordering App** là một ứng dụng di động bán đồ ăn full-stack gồm 4 thành phần chính:
 
 | Thành phần                      | Mô tả                                | Công nghệ                         |
 | ------------------------------- | ------------------------------------ | --------------------------------- |

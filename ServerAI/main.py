@@ -9,11 +9,11 @@ import json
 app = Flask(__name__)
 CORS(app)
 
-API_KEY = "YOUR_GEMINI_API_KEY"  # Lấy key tại: https://aistudio.google.com/apikey
+API_KEY = "AIzaSyBI7ly5t243z9bDjBDYYONU88AQq_LK7uU"
 # 🔥 SỬA: Dùng 1.5-flash chuẩn (2.5-flash không tồn tại)
 MODEL_NAME = "gemini-2.5-flash" 
 
-JAVA_API_URL = "http://localhost:8080/api/public/products"  # Đổi thành IP máy bạn nếu chạy trên điện thoại
+JAVA_API_URL = "https://incompatibly-partakable-ileana.ngrok-free.app/api/public/products"
 
 client = genai.Client(api_key=API_KEY)
 
